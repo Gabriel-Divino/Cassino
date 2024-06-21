@@ -22,6 +22,10 @@ const nextConfig = {
             source: '/game-api/fortune-tiger/v2/Spin',
             destination: '/api/spin',
           },
+          {
+            source: '/shared/3c4695a542/index.json',
+            destination: '/api/shared',
+          },
           // Adicione mais regras de reescrita conforme necessário
         ];
       },
