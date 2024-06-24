@@ -6,6 +6,8 @@ import { api_url } from "@/app/urls";
 import Head from "next/head";
 import { Game } from "@/app/struc";
 
+export const runtime = 'edge';
+
 export default function GamePage(){
 
     const [game,setGame] = useState<Game>({id:0,title:"",slug:"",image:""})
